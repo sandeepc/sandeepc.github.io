@@ -14,7 +14,9 @@ comments: true
 
 ###Outside Hacks & MUSAIC
 
-Outside Lands music festival teamed up with CodeMarkrs to put together a music festival hackthon called Outside Hacks this past weekend. My buddies [Jeff](www.linkedin.com/in/jeffjv), [Rob](http://twitter.com/robcavin) and I decided to check out. In 24 hours we pulled together that technology to create realtime mosaic art that engages attendees and let's artists and sponsors connect with fans directly in the festival. We called it MUSAIC. Some People seemed to like it and we were selected as one of the finalists.
+Outside Lands music festival teamed up with CodeMarkrs to put together a music festival hackthon called Outside Hacks this past weekend. My buddies [Jeff](www.linkedin.com/in/jeffjv), [Rob](http://twitter.com/robcavin) and I decided to check out. 
+
+In 24 hours we pulled together that technology to create realtime mosaic art that engages attendees and let's artists and sponsors connect with fans directly in the festival. We called it MUSAIC. Some People seemed to like it and we were selected as one of the finalists.
 
 This was my first time at a hackathon but between my experiences and watching others who seemed more in-tune here are some "Pro Tips" to help you have fun at hackathons.
 
@@ -39,7 +41,10 @@ Some teams had devs who were waiting for the designers a chunk of the time and d
 
 Anyway, We're off to the finals today.. wish us luck! 
 
-PS - Here is a video from our first live gig at the Outside Hacks Concert. WARNING: LOUD SOUND - ![Instagram](http://instagram.com/p/cmq-vRTg87/)
+PS - Here is a instagram video from our first live gig at the Outside Hacks Concert. 
+
+*WARNING: LOUD SOUND*
+[Instagram](http://instagram.com/p/cmq-vRTg87)
 
 #
 **Follow me on [twitter](http://twitter.com/_sandeep) to find out what happens with Musaic.** 
