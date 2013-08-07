@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Some "Pro-tips" for Hackathons 
-description: "Pro Tips to Stay Sane, Ship Product and Rockout at Hackathons"
+title: Four "Pro-tips" for Hackathons 
+description: "Four Pro Tips to Ship Product and Rockout at Hackathons"
 modified: 2013-08-07
 category: posts
 tags: [Shipping It,Hackathons,Tips]
@@ -28,7 +28,7 @@ This means  have a clean design, crisp UX and levergaging APIs to get rich visua
 
 ###Personal: Manage your energy. 
 
-This is an endurance event. Get decent sleep thenight before. Eat Like you would in a marathon - a lot , in small meals, all day long.
+This is an endurance event. Get decent sleep thenight before. Eat Like you would in a marathon - a lot, in small meals, all day long.
 
 Caffeine is necessary and sometimes beer is good for the team morale
 but water and staying hydrated is your best bet.
@@ -36,7 +36,7 @@ but water and staying hydrated is your best bet.
 This was not one that i had thought about but the more experienced
 folks came with a change of clothes. After 18 hours of work a toothbrush and fresh clothes could be the Edge that you need.
 
-###Team: Pick for the complementary and overlapping skills. 
+###People: Pick for the complementary and overlapping skills. 
 Some teams had devs who were waiting for the designers a chunk of the time and designers who were bored in the second half. For us,  with all three us beign able to code, design and present to varying levels - We could jump between dev, design and dev-ops to make sure everything was progressing on schedule. I am definitely grateful to have such talented friends. 
 
 Anyway, We're off to the finals today.. wish us luck! 
