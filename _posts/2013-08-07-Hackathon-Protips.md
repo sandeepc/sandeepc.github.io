@@ -2,7 +2,7 @@
 layout: post
 title: Four "Pro-tips" for Hackathons 
 description: "Four Pro Tips to Ship Product and Rockout at Hackathons"
-modified: 2013-08-07
+modified: 2013-08-26
 category: posts
 tags: [Shipping It,Hackathons,Tips]
 image:
@@ -41,10 +41,8 @@ Some teams had devs who were waiting for the designers a chunk of the time and d
 
 Anyway, We're off to the finals today.. wish us luck! 
 
-PS - Here is a instagram video from our first live gig at the Outside Hacks Concert. 
+PS - Here is a [instagram video](http://instagram.com/p/cmq-vRTg87) from our first live gig at the Outside Hacks Concert. *WARNING: LOUD SOUND*
 
-*WARNING: LOUD SOUND*
-[Instagram](http://instagram.com/p/cmq-vRTg87)
+Follow me on [twitter](http://twitter.com/_sandeep) to find out what happens with Musaic. 
 
-#
-**Follow me on [twitter](http://twitter.com/_sandeep) to find out what happens with Musaic.** 
+UPDATE - Musaic [wins OSL Night Prize!!!](http://www.hackerleague.org/hackathons/outside-hacks/wikipages/52022c05329b37fa19000030) at [Outside Hacks](http://twitter.com/outsidehacks)
