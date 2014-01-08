@@ -3,7 +3,7 @@ description:      Technology Business
 disqus_shortname: 
 logo:             site-logo.png
 #Comment out url when working locally to resolve base urls correctly
-url:              http://sandeepc.github.io
+url:              http://sandeep.github.io
 #For Development Only
 #url:             http://localhost:3033
 
