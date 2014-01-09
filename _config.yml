@@ -2,6 +2,8 @@ title:            Sandeep Chivukula
 description:      Technology Business
 disqus_shortname: 
 logo:             site-logo.png
+disqus_shortname: 
+search:           true
 #Comment out url when working locally to resolve base urls correctly
 url:              http://sandeep.github.io
 #For Development Only
@@ -66,6 +68,5 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-include: [".htaccess", "assets"]
-exclude: ["Rakefile", "_drafts","CNAME","_old_posts", "lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
-
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

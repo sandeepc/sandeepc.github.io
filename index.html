@@ -1,5 +1,6 @@
 ---
 layout: page
+<<<<<<< HEAD
 title: 
 description: "A place for words and photos."
 tags: [web, technology, marketing, business, photos, blog, posts]
@@ -24,3 +25,15 @@ isAbout: true
 
 <h5 style="text-align:center"> Stay in the loop: <a href="https://twitter.com/_sandeep" class="twitter-follow-button" data-show-count="false" data-size="x-large" data-dnt="true">@_sandeep</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+=======
+title: Latest Posts
+description: "A simple and clean responsive Jekyll theme for words and photos."
+tags: [Jekyll, theme, themes, responsive, blog, minimalism]
+---
+
+<ul class="post-list">
+{% for post in site.posts limit:10 %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>
+>>>>>>> 6a24d007364f2549f8e28e8904c9074f5ded8724
