@@ -17,7 +17,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        _sandeep
   #facebook:       
-  github:         sandeepc
+  github:         sandeep
   stackexchange:  
   linkedin:       sandeepchivukula
   #instagram:      
@@ -28,7 +28,7 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-22827765-2
-google_verify: OoZwgVr3GdznIYqtkDro2UflUfbpO7lIrTqM4b_fn0U
+google_verify: RCIETChG8zO8BGrHTNgEZYZWfKj-J2jdUthBRvD7DRA
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
