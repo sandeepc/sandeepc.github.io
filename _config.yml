@@ -7,7 +7,7 @@ search:           true
 #Comment out url when working locally to resolve base urls correctly
 url:              http://sandeep.github.io
 #For Development Only
-#url:             http://localhost:3033
+#url:             http://localhost:3000
 
 # Owner/author information
 owner:
@@ -28,9 +28,9 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-22827765-2
-google_verify: RCIETChG8zO8BGrHTNgEZYZWfKj-J2jdUthBRvD7DRA
+#google_verify: RCIETChG8zO8BGrHTNgEZYZWfKj-J2jdUthBRvD7DRA
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
