@@ -1,8 +1,8 @@
-title:            Sandeep Chivukula 
+title:            Sandeep Chivukula
 description:      Technology Business
-disqus_shortname: 
+disqus_shortname:
 logo:             site-logo.png
-disqus_shortname: 
+disqus_shortname:
 search:           true
 #Comment out url when working locally to resolve base urls correctly
 url:              http://sandeep.github.io
@@ -11,20 +11,20 @@ url:              http://sandeep.github.io
 
 # Owner/author information
 owner:
-  name:           Sandeep Chivukula 
+  name:           Sandeep Chivukula
   avatar:         Profile_Pic.jpg
   email:          me@sandeepchivukula.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        _sandeep
-  #facebook:       
+  #facebook:
   github:         sandeep
-  stackexchange:  
+  stackexchange:
   linkedin:       sandeepchivukula
-  #instagram:      
-  #flickr:         
-  #itumblr:         
+  #instagram:
+  #flickr:
+  #itumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-22827765-2
@@ -62,7 +62,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
