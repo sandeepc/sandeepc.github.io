@@ -9,7 +9,9 @@ image:
   feature: musaic_logo-large.png
   creditlink:
   credit: Musaic Team
-comments: true  
+comments: true
+share: true
+ads: false
 ---
 
 ###Outside Hacks & MUSAIC

@@ -9,6 +9,8 @@ image:
   creditlink: http://loc.gov/pictures/resource/fsac.1a34280/
   credit: John Vachon via LoC
 comments: true
+share: true
+ads: false
 ---
 
 _I wrote this post on privacy and user data ownership in consumer startups back in 2012 when Facebook

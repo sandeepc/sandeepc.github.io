@@ -8,7 +8,9 @@ image:
   feature: /qs/math.png
   creditlink: http://www.flickr.com/photos/t_e_brown/8677750589/
   credit: Mathematics by Tom Brown
-  comments: true
+comments: true
+share: true
+ads: false
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=quantifiedselfuxtips
 ---
 
@@ -64,4 +66,4 @@ Build your product experience around immediate quick wins for the user. Engage a
 These three simple principles have the power to significantly change user engagement with wearables and help product teams deliver on their promise of changing the world. As a consumer - I am eagerly looking forward to the next generation of software and user experiences which leverage these ideas and make wearables useful.
 
 
-<small> Many thanksto [Deepika Yerragunta]() for comments on an earlier draft.</small>
+<small> Many thanks to [Deepika Yerragunta](http://linkedin.com/in/deepikay) for comments on an earlier draft.</small>

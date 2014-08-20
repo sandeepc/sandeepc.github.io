@@ -9,6 +9,8 @@ image:
   creditlink: https://www.flickr.com/photos/mushman1970/6651066661/
   credit: Taehyun Kim
 comments: true
+share: true
+ads: false
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=staticsited
 ---
 

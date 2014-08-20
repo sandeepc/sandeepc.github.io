@@ -10,6 +10,8 @@ image:
   creditlink: https://www.flickr.com/photos/geezaweezer/4319488074/
   credit: Geraint Rowland
 comments: true
+share: true
+ads: false
 ---
 
 ###Twitter Lists
