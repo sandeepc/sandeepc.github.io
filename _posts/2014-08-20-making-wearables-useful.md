@@ -5,10 +5,10 @@ description: "Most Quantified Self or Wearable Devices end up unused in 6 months
 category: posts
 tags: [Quantified Self, Wearables, User Experience, Product]
 image:
-feature: /qs/math.png
-creditlink: http://www.flickr.com/photos/t_e_brown/8677750589/
-credit: Mathematics by Tom Brown
-comments: true
+  feature: /qs/math.png
+  creditlink: http://www.flickr.com/photos/t_e_brown/8677750589/
+  credit: Mathematics by Tom Brown
+  comments: true
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=quantifiedselfuxtips
 ---
 
@@ -16,7 +16,7 @@ As an engineer, I was easily hooked on the idea that you could measure and impro
 
 #### The BestFit Experiment
 
-Last summer, I took this further and built a tool called _BestFit_ to make tracking even simpler. BestFit users log activities such as "Going to Bed", Eating, Drinking by simply tapping a button on their phone. Then the app looked for actionable insights from those data p oints. I used BestFit alongside the Moves App, and a WiiThings Pulse to level up my QS and test a few hypotheses regarding this space.
+Last summer, I took this further and built a tool called _BestFit_ to make tracking even simpler. BestFit users log discrete activities such as Going to Bed, Eating, Drinking by simply tapping a button on their phone. Then the app looked for actionable insights from those data points. I used BestFit alongside the Moves App, and a WiiThings Pulse to level up my QS and test a few hypotheses regarding this space.
 
 ![BestFit Landing](/images/qs/bestfit.png)
 
