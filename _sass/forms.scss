@@ -11,9 +11,9 @@ form {
 		margin-bottom: 5px * 2;
 		*margin-left: -7px; 
 		padding: 0;
-		color: @text-color;
+		color: $text-color;
 		border: 0;
-		border-bottom: 1px solid lighten(@black, 80);
+		border-bottom: 1px solid lighten($black, 80);
 		white-space: normal; 
 	}
 	p {
@@ -40,14 +40,14 @@ input,
 button,
 select,
 textarea {
-	font-family: @base-font; 
-	.box-sizing(border-box); 
+	font-family: $base-font; 
+	@include box-sizing(border-box); 
 }
 label {
 	display: block;
 	margin-bottom: 10px / 8;
 	font-weight: bold;
-	color: @text-color;
+	color: $text-color;
 	cursor: pointer; 
 	input,
 	textarea,
@@ -62,11 +62,11 @@ select {
 	width: 100%;
 	padding: 4px;
 	margin-bottom: 5px / 4;
-	background-color: @white;
-	border: 1px solid lighten(@black, 80);
-	color: @text-color; 
+	background-color: $white;
+	border: 1px solid lighten($black, 80);
+	color: $text-color; 
 	&:hover {
-		border-color: lighten(@accent-color, 50); 
+		border-color: lighten($accent-color, 50); 
 	}
 }
 .input-mini { 
@@ -85,19 +85,19 @@ input[type="radio"] {
 	*margin-top: 0;
 	line-height: normal;
 	cursor: pointer;
-	.rounded(0);
+	@include rounded(0);
 	border: 0 \9; 
 }
 input[type="checkbox"], 
 input[type="radio"] {  
-	.box-sizing(border-box);
+	@include box-sizing(border-box);
 	padding: 0; 
 	*width: 13px; 
 	*height: 13px; 
 }
 input[type="image"] {
 	border: 0; 
-	.box-shadow(none); 
+	@include box-shadow(none); 
 }
 input[type="file"] {
 	width: auto;
@@ -106,7 +106,7 @@ input[type="file"] {
 	border: initial;
 	background-color: transparent;
 	background-color: initial;
-	.box-shadow(none); 
+	@include box-shadow(none); 
 }
 input[type="button"],
 input[type="reset"],
@@ -122,14 +122,14 @@ input[type="file"] {
 }
 select {
 	width : auto;
-	background-color : @white;
+	background-color : $white;
 }
 select[multiple],
 select[size] {
 	height : auto; 
 }
 textarea {
-	.resize(vertical);
+	@include resize(vertical);
 	height : auto;
 	overflow : auto; 
 	vertical-align : top; 
@@ -168,7 +168,7 @@ textarea[disabled],
 input[readonly],
 select[readonly],
 textarea[readonly] {
-	.opacity(.5);
+	@include opacity(.5);
 	cursor : not-allowed; 
 }
 
@@ -177,7 +177,7 @@ textarea[readonly] {
 
 input:focus,
 textarea:focus {
-	border-color : @accent-color;
+	border-color : $accent-color;
 	outline : 0;
 	outline : thin dotted \9; 
 }
@@ -185,7 +185,7 @@ input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus,
 select:focus {
-	.box-shadow(none); 
+	@include box-shadow(none); 
 }
 
 // help text
@@ -193,7 +193,7 @@ select:focus {
 
 .help-block,
 .help-inline {
-	color : lighten(@black, 50); 
+	color : lighten($black, 50); 
 }
 .help-block {
 	display : block; 
@@ -237,11 +237,11 @@ select:focus {
   padding: 6px 10px;
   cursor: pointer;
   display: block;
-  color: @white;
-  .rounded(4px);
+  color: $white;
+  @include rounded(4px);
   &:hover {
-	.box-shadow(@shadow: inset 0 0 1px @white);
-  	background-color: lighten(@black, 10);
+	@include box-shadow($shadow: inset 0 0 1px $white);
+  	background-color: lighten($black, 10);
   }
 }
 .search-form {
@@ -256,14 +256,14 @@ select:focus {
 		-webkit-appearance: none;
 		border: none;
 		width: 100%;
-		color: @white;
+		color: $white;
 		border: none;
-		border-bottom: 1px solid lighten(@white, 20);
+		border-bottom: 1px solid lighten($white, 20);
 		background-color: transparent;
 		box-shadow: none;
 		border-radius: 0;
 		background-clip: padding-box;
-		.font-rem(32);
+		@include font-rem(32);
 		&:focus {
 			box-shadow: none;
 			outline: none;
@@ -278,18 +278,7 @@ select:focus {
 		display: none;
 	}
 	::-webkit-input-placeholder {
-		.font-rem(32);
-	}
-	.icon-remove-sign {
-		position: absolute;
-		top: .6rem;
-		right: 1rem;
-		display: block;
-		cursor: pointer;
-		text-align: center;
-		color: @white;
-		z-index: 1;
-		cursor: pointer;
+		@include font-rem(32);
 	}
 	.search-field::-webkit-search-decoration,
 	.search-field::-webkit-search-cancel-button,
@@ -301,10 +290,10 @@ select:focus {
 		position: absolute;
 		width: 100%;
 		h4, li, p, a {
-			color: @white;
+			color: $white;
 		}
 		li {
-			border-bottom: 1px solid lighten(@white,20);
+			border-bottom: 1px solid lighten($white,20);
 		}
 	}
 }
@@ -313,8 +302,8 @@ body.search-overlay {
 }
 body.search-overlay:after {
 	content: '';
-	background-color: lighten(@black,5);
-	background-color: fade(@black,95);
+	background-color: lighten($black,5);
+	background-color: rgba($black,.95);
 	width: 100%;
 	min-height: 100%;
 	height: 100%;

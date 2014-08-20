@@ -1,14 +1,14 @@
 .CodeRay {
-  font-family: @code-font;
-  .font(12);
+  background-color: #efefef;
+  font-family: $code-font;
+  @include font(12);
   color: #333332;
   margin-bottom: 1.5em;
-  border: 1px solid darken(@body-color, 5);
-}
-
-.CodeRay code {
-  margin: 0;
-  padding: 1em;
+  @include rounded(4px);
+  pre {
+    margin: 0px;
+    padding: 1em;
+  }
 }
 
 div.CodeRay { }
@@ -21,6 +21,7 @@ table.CodeRay td {
 }
 
 .CodeRay .line-numbers, .CodeRay .no {
+  background-color: #ECECEC;
   color: #AAA;
   text-align: right;
 }
