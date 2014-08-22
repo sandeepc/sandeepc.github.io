@@ -28,13 +28,13 @@ While QS tools have the power to make a meaningful difference in people's lives 
 
 #### 1. Make Data Collection Automatic.
 
-It turns out, people are notoriously bad at consistent self-tracking. [A study by the Pew Research Center](http://www. pewinternet. org/2013/01/28/tracking-for-health/?{{page.utm}}) found that of people with two or more chronic diseases who track health markers only about 54% do so regularly. This number drops another 11% for people without chronic diseases - i. e. Almost 60% of the people who say they track their health don't do so regularly.
+It turns out, people are notoriously bad at consistent self-tracking. [A study by the Pew Research Center](http://www. pewinternet. org/2013/01/28/tracking-for-health/?{{page.utm}}) found that of people with two or more chronic diseases who track health markers, only about 54% do so regularly. This number drops another 11% for people without chronic diseases - i. e. Almost 60% of the people who say they track their health don't do so regularly.
 
 I found the automatic tracking from WiiFit and Moves App to be much more consistent than the manual tracking in BestFit. Moves, in particular was a clear winner, since it required little to no interaction and collected data on activity, location (how many times did you stop at McDonalds vs. the Farmers Market), and motion regularly.
 
 ![Moves App - Source:http://www.whatmobile.net/](/images/qs/moves-app.png)
 
-Make data collection automatic. Device designers should stop requiring people to put devices into "modes" (eg: fitbit sleep mode) or asking them to remove devices from housing to access certain functions (e.g.: WiiThings Pulse Tracker [that requires you to remove it from its case to measure heart rate. ](http://the-gadgeteer. com/2014/04/25/withings-pulse-o2-activity-tracker-review/?{{page.utm}})
+Make data collection automatic. Device designers should stop requiring people to put devices into "modes" (eg: fitbit sleep mode) or asking them to remove devices from housing to access certain functions (e.g.: WiiThings Pulse Tracker [that requires you to remove it from its case to measure heart rate. ](http://the-gadgeteer.com/2014/04/25/withings-pulse-o2-activity-tracker-review/?{{page.utm}})
 
 
 
@@ -43,7 +43,7 @@ Make data collection automatic. Device designers should stop requiring people to
 
 The current generations of wearables are still very focused on accurate data collection and have been packing on additional arrays of sensors for added real-time data collection.
 
-Once users get past [the benefits of the Hawthorne effect](https://en.wikipedia.org/wiki/Hawthorne_effect) gained from checking in every cup of coffee and logging every dumbell curl, as the fast company article points out, most of these real-time data turns into digital noise and the devices end up unused.
+Once users get past [the benefits of the Hawthorne effect](https://en.wikipedia.org/wiki/Hawthorne_effect) gained from checking in every cup of coffee and logging every dumbell curl, as the previous Fast Company article points out, most of this real-time data turns into digital noise and the devices end up unused.
 
 ![Source:"Western Electric Company. Hawthorne works for the manufacture of power apparatus." -Via Baker Library, Harvard Business School](/images/qs/Hawthorne.jpg)
 
@@ -53,7 +53,7 @@ Designers need to rethink their approach to the products to deliver insights rat
 
 #### 3. Drive Immediate, Small, Actions that Add Up.
 
-Change is hard. Especially when it involves foundational behaviors like exercise, eating or sleeping, that have become ingrained over years. Authors Dan and Chip Heath, Authors of the New York Times and Wall Stree Journal Best seller [Switch: How to Change Things When Change Is Hard](http://heathbrothers.com/books/switch/?{{page.utm}}) advocate that to make the change stick we have to minimize the change. Good Quantified Self product designers know and embrace this.
+Change is hard. Especially when it involves foundational behaviors like exercise, eating or sleeping, that have become ingrained over years. Dan and Chip Heath, Authors of the New York Times and Wall Street Journal Best Seller [Switch: How to Change Things When Change Is Hard](http://heathbrothers.com/books/switch/?{{page.utm}}) advocate that to make the change stick we have to minimize the change. Good Quantified Self product designers know and embrace this.
 
 ![LumoBack Product Shot](/images/qs/lumoback.png)
 
@@ -61,7 +61,7 @@ A great example of this in a product is the [LumoBack](http://www.lumobodytech.c
 
 Build your product experience around immediate quick wins for the user. Engage and motivate her to achieve those wins. Maintain the user enthusiasm for the immediate action by showcasing and celebrating her heroic progress towards her goals in the UI.
 
-### If you make it useful - they will use it.
+### If You Make It Useful - They Will Use It.
 
 These three simple principles have the power to significantly change user engagement with wearables and help product teams deliver on their promise of changing the world. As a consumer - I am eagerly looking forward to the next generation of software and user experiences which leverage these ideas and make wearables useful.
 
