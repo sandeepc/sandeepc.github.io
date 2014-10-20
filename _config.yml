@@ -1,1 +1,58 @@
-# Site wide configurationtitle:            Sandeep Chivukulalocale: en_USdescription:      Technology Businesssearch:           truelogo: site-logo.png#Comment out url when working locally to resolve base urls correctlyurl:              http://blog.sandeepchivukula.com#For Development Only#url:             http://localhost:4000# Jekyll configurationpermalink:   /:title/markdown:    kramdownhighlighter: pygmentssass:  sass_dir: _sass  style: compressedgems:  - jekyll-sitemapkramdown:  auto_ids: true  footnote_nr: 1  entity_output: as_char  toc_levels: 1..6  use_coderay: falseinclude: [".htaccess"]exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]# Site ownerowner:  name:           Sandeep Chivukula  avatar:         Profile_Pic.png  email:          me@sandeepchivukula.com  # Social networking links used in footer. Update and remove as you like.  disqus_shortname:  twitter:        _sandeep  #facebook:  github:         sandeep  stackexchange:  linkedin:       sandeepchivukula  #instagram:  #flickr:  #itumblr:  # For Google Authorship https://plus.google.com/authorship  google:    plus:    analytics: UA-22827765-1    verify: RCIETChG8zO8BGrHTNgEZYZWfKj-J2jdUthBRvD7DRA    ad-client:    ad-slot:bing-verify:
+# Site wide configuration
+title:            Sandeep Chivukula
+locale:           en_US
+description:      Technology Business
+search:           true
+logo:             site-logo.png
+
+#Comment out url when working locally to resolve base urls correctly
+url:              http://blog.sandeepchivukula.com
+#For Development Only
+#url:             http://localhost:4000
+
+# Jekyll configuration
+permalink:   pretty
+markdown:    kramdown
+highlighter: pygments
+
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+
+owner:
+  name:           Sandeep Chivukula
+  avatar:         Profile_Pic.png
+  email:          me@sandeepchivukula.com
+  # Social networking links used in footer. Update and remove as you like.
+  disqus_shortname:
+  twitter:        _sandeep
+  #facebook:
+  github:         sandeep
+  stackexchange:
+  linkedin:       sandeepchivukula
+  #instagram:
+  #flickr:
+  #itumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  google:
+    plus:
+    analytics: UA-22827765-1
+    verify: RCIETChG8zO8BGrHTNgEZYZWfKj-J2jdUthBRvD7DRA
+    ad-client:
+    ad-slot:
+bing-verify:
