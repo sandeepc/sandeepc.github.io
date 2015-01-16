@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making Wearables Useful.
+title: Making Wearables Useful
 description: "Most Quantified Self or Wearable Devices end up unused in 6 months. Here are a few user experience tips to make your device or service more useful to the consumer."
 category: posts
 tags: [Quantified Self, Wearables, User Experience, Product]
