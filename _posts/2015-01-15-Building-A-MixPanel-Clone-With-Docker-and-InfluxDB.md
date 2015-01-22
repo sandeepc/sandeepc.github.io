@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Build a MixPanel Clone with Docker, InfluxDB and Grafana
-modified:
+modified: 1/21/2015
 categories: post
 excerpt: DevOps FTW! Save $65MM and build an OpenSource MixPanel Clone.
 tags: [devops, docker, containers, influxdb, grafana]
@@ -16,29 +16,29 @@ ads: false
 
 In the physical world, logistics advances created opportunities for companies to upend old business models. Both Wal-Mart (Cross-Docking) and Dell (Just-In-Time Manufacturing) leveraged superior logistics to create outsized competitive advantages by fundamentally re-defining how goods are moved from the factory to the consumer. 
 
-In the world of software, advances in DevOps (Developer Operations) from companies like [Nitrous.IO](https://www.nitrous.io), [Docker](http://www.docker.com), [CoreOS](http://www.coreos.com) and others are laying the foundation for next wave of businesses to gain an outsized advantage by fundamentally accelerating the way Software is delivered from the developer's workspace ("factory") to the "production servers" where it consumed by the end-user. 
+In the world of software, advances in DevOps (Developer Operations) from companies like [Nitrous.IO](https://www.nitrous.io/?{{page.utm}}), [Docker](http://www.docker.com/?{{page.utm}}), [CoreOS](http://www.coreos.com/?{{page.utm}}) and others are laying the foundation for next wave of businesses to gain an outsized advantage by fundamentally accelerating the way Software is delivered from the developer's workspace ("factory") to the "production servers" where it consumed by the end-user. 
 
 This blog post leverages opensource technologies to show a practical example how the current advances in DevOps allow the rapid creation of complex services. 
 
 
 ### The Goal
 
-Create a scalable MVP clone of the popular SaaS and Mobile analytics service: [__MixPanel__](http://blogs.wsj.com/venturecapital/2014/12/18/mixpanel-raises-65-million-to-build-predictive-data-tech/)
+Create a scalable MVP clone of the popular SaaS and Mobile analytics service: [__MixPanel__](http://blogs.wsj.com/venturecapital/2014/12/18/mixpanel-raises-65-million-to-build-predictive-data-tech/?{{page.utm}})
 
 ### Ingredients
 
 We will use three Open Source components and a little javascript to accomplish this :
 
-* [InfluxDB](http://www.influxb.com) - A popular OpenSource Time Series Database written in Go to Store the Data
-* [Grafana](http://grafana.org) - A Visualization Tool to View our Time Series Event Data
-* [Docker/Boot2Docker](http://www.docker.com) - Amazing Containerization technology which enables a new approach to DevOps
+* [InfluxDB](http://www.influxdb.com/?{{page.utm}}) - A popular OpenSource Time Series Database written in Go to Store the Data
+* [Grafana](http://grafana.org/?{{page.utm}}) - A Visualization Tool to View our Time Series Event Data
+* [Docker/Boot2Docker](http://www.docker.com/?{{page.utm}}) - Amazing Containerization technology which enables a new approach to DevOps
 
 
 ### The Steps
 
 ####1. Setup a Docker Host
 
-Docker has rapidly become the de-facto technology for containerized services. You can install Docker or use [Boot2Docker on your Mac](https://docs.docker.com/installation/mac/), [AWS' Elastic Container Service](https://aws.amazon.com/ecs/), or bring up your own Docker host on [Google Compute](https://cloud.google.com/compute/docs/containers/container_vms)
+Docker has rapidly become the de-facto technology for containerized services. You can install Docker or use [Boot2Docker on your Mac](https://docs.docker.com/installation/mac/?{{page.utm}}), [AWS' Elastic Container Service](https://aws.amazon.com/ecs/?{{page.utm}}), or bring up your own Docker host on [Google Compute](https://cloud.google.com/compute/docs/containers/container_vms?{{page.utm}})
 
 ![Docker](/images/devops/docker-whale-home-logo-@2x.png)  
 
@@ -48,9 +48,9 @@ I will be using Boot2Docker on a Mac.
 
 ![InfluxDB](/images/devops/influx.jpeg)
 
-[InfluxDB](http://influxdb.com/docs/v0.8/introduction/overview.html) is a distributed time series data store with a clean native http API that we can easily scale up through clustering. 
+[InfluxDB](http://influxdb.com/docs/v0.8/introduction/overview.html?{{page.utm}}) is a distributed time series data store with a clean native http API that we can easily scale up through clustering. 
 
-Once you have your Docker Host setup - let's bring up InfluxDB in a Docker container. We will be using an [existing image from Docker hub and exposing a couple of ports for an Admin interface.](https://github.com/crosbymichael/influxdb-docker) 
+Once you have your Docker Host setup - let's bring up InfluxDB in a Docker container. We will be using an [existing image from Docker hub and exposing a couple of ports for an Admin interface.](https://github.com/crosbymichael/influxdb-docker?{{page.utm}}) 
 
 {% highlight bash%}
 docker run -p 8086:8086 -p 8083:8083 -d crosbymichael/influxdb
@@ -66,11 +66,11 @@ _Note: 1) Find out the IP for your Boot2Docker Host with `boot2docker ip` 2) You
 
 ####3. Bring up Grafana
 
-Grafana is a [fantastic visualization tool](http://grafana.org/features/) that already suports querying InfluxDB.
+Grafana is a [fantastic visualization tool](http://grafana.org/features/?{{page.utm}}) that already suports querying InfluxDB.
 
 ![Grafana](/images/devops/grafana.png)
   
-We'll bring grafana in seperate docker container using [another image from Docker Hub](https://registry.hub.docker.com/u/tutum/grafana/) and connect it to our InfluxDB container all in one step. 
+We'll bring grafana in seperate docker container using [another image from Docker Hub](https://registry.hub.docker.com/u/tutum/grafana/?{{page.utm}}) and connect it to our InfluxDB container all in one step. 
 
 {% highlight bash%}
 docker run -d -p 80:80 -e INFLUXDB_HOST=<DOCKER_HOST_IP> \
@@ -84,7 +84,7 @@ With _two_ Docker commands most of our heavy lifting is done. Each component can
 
 ####4. Enter Data into InfluxDB
 
-[InfluxDB has a clients](http://influxdb.com/docs/v0.8/) available for a variety of languages so you can easily send events from your Backend or directly from the Frontend.
+[InfluxDB has clients](http://influxdb.com/docs/v0.8/client_libraries/javascript.html?{{page.utm}}) for a variety of languages so you can easily send events from your Backend or directly from the Frontend.
 
 ![javascript hackiness](/images/devops/javascript.png)
 
@@ -126,7 +126,7 @@ From the Dashboard - Click on the "First Graph" Title to Edit the Graph
 Click the _Gear Icon_  and select "Raw Query Editor" 
 ![Grafana-Settings](/images/devops/grafana-2.png)
 
-Using [InfluxDB's Query Syntax](http://influxdb.com/docs/v0.8/api/query_language.html) type the following query into the query field: 
+Using [InfluxDB's Query Syntax](http://influxdb.com/docs/v0.8/api/query_language.html?{{page.utm}}) type the following query into the query field: 
 
 {% highlight sql %}
 
@@ -143,9 +143,11 @@ You have just created a MixPanel like view for one of the most critical user eve
 
 ###What Next?
 
-This scalable, general purpose data store and visualization we've just built can now easily be deployed from your local machine to AWS, Google or your own Data Center and also scaled up or down as needed. 
+This scalable general purpose data store and visualization we've just built can now easily be deployed from your local machine to AWS, Google or your own Data Center AND scaled up or down as needed. 
 
 This means your engineering efforts can be focused on rapidly building and iterating on complex domain specific analytics from the time based data that impact your business rather than wrestling with infrastructure.
 
-The confluence of advances in the core containerization technology and broad ecosystem support makes this an exciting time for anyone whose business depends on software - which these days is all business whether your business is in IoT, Healthcare or Retail.  We are still in the early days of containerization and I look forward to seeing how the technology will be leveraged by enterprising engineers in the near future to build the next Wal-Mart, Dell and change the way people live.
+The confluence of advances in the core containerization technology and broad ecosystem support makes this an exciting time for anyone whose business depends on software - which these days is all businesses whether your business is in IoT, Healthcare or Retail.  We are still in the early days of containerization and I look forward to seeing how the technology will be leveraged by enterprising engineers in the near future to build the next Wal-Mart or Dell and change the way people live.
 
+<HR>
+_Edit 1/21 : Fixed links and typos_
