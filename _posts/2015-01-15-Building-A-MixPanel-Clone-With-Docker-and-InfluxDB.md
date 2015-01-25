@@ -75,7 +75,8 @@ We'll bring grafana in seperate docker container using [another image from Docke
 {% highlight bash%}
 docker run -d -p 80:80 -e INFLUXDB_HOST=<DOCKER_HOST_IP> \
 -e INFLUXDB_PORT=8086 -e INFLUXDB_NAME=mixevents -e INFLUXDB_USER=root \
--e INFLUXDB_PASS=root -e HTTP_USER=admin -e HTTP_PASS=mypass tutum/grafana
+-e INFLUXDB_PASS=root -e HTTP_USER=admin -e HTTP_PASS=mypass tutum/grafana \
+-e INFLUXDB_IS_GRAFANADB=true
 {% endhighlight  %}
 
 Head to your Docker Host's IP on port `80` and login with `admin/mypass` for the basic authentication. 
@@ -151,3 +152,6 @@ The confluence of advances in the core containerization technology and broad eco
 
 <HR>
 _Edit 1/21 : Fixed links and typos_
+
+_Edit 1/25 : Updated Grafana container run command to have dashboards written out to
+InfluxDB via [Darren Craine](https://www.facebook.com/agrippa)_
