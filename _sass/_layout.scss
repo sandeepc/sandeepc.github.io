@@ -198,10 +198,10 @@ body {
 	margin: 20px 0 0;
 	width: 100%;
 	@include media($medium) {
-		margin-top: -75px;
+		margin-top: -12em;
 	}
 	@include media($large) {
-		margin-top: -145px;
+		margin-top: -14em;
 	}
 }
 .entry-header {
