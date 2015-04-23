@@ -1,7 +1,9 @@
 language: ruby
 rvm:
   - 2.1
-
+branches:
+  only:
+    drafts
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
