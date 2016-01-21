@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Four "Pro-tips" for Hackathons
-description: "Four Pro Tips to Ship Product and Rockout at Hackathons"
+excerpt: "Four Pro-Tips to ship product and rock out at Hackathons"
 modified: 2013-08-26
 category: posts
 tags: [Shipping It,Hackathons,Tips]

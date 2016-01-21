@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Three Reasons to Use Static Sites and Get Down to Business
-description: "Static sites make it easy to setup very sophisticated sites, let you focus on content and scale as needed."
+title: Three reasons to use static sites and get down to business
+excerpt: "Static sites - setup very sophisticated sites, focus on content and scale as needed."
 category: posts
 tags: [Static Sites, Jekyll]
 image:

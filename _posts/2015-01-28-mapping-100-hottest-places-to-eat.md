@@ -3,7 +3,7 @@ layout: post
 title: Mapping Yelp's Hottest 2015 Eats
 modified: 1/27/2015
 categories: post
-excerpt: A mapping of Yelp’s Hottest 100 Places to Eat in the U.S. for 2015 as determined by their data scientists.
+excerpt: A mapping of Yelp’s Hottest 100 Places to Eat in the U.S. for 2015.
 tags: [visualization, maps, api, yelp, data science,]
 image: 
   feature: yelp/feature.jpg

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: User Data and Startups
-description: "Startups and Privacy when Quantified Self and Social Media meet."
+description: "Startups and privacy when quantified self and social media meet."
+category: posts
+excerpt: "Startups and Privacy when Quantified Self and Social Media meet."
 category: posts
 tags: [Privacy, Startups, Consumer]
 image:

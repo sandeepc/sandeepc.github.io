@@ -2,7 +2,6 @@
 
 
 A simple responsive jekyll based blog hosted on github pages. Based on So Simple theme by [@mmistakes](http://twitter.com/mmistakes) 
-
 ---
 
 ## License

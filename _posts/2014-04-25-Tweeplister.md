@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Twitter Lists Made Easy
-description: "Easily make a Twitter List from a list of names with Tweeplister"
+excerpt: "Easily make a Twitter list from a list of names with Tweeplister"
 modified: 2014-04-26
 category: posts
 tags: [Ruby, TweepLister]
