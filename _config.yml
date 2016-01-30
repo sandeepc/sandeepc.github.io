@@ -62,3 +62,6 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+  fb:
+    pixel: 1694049524161968
+
