@@ -75,4 +75,6 @@ Verify that Kibana is running and that it can connect to Elasticsearch at `http:
 
 We've created a powerful foundation for search that can both handle large amounts of data and be scaled out to service a high volume of requests.
 
-[In Part 2, we will extract data from our images and add them to our search index.](http:///blog.sandeepchivukula.com/posts/2016/03/06/photo-search-2/?{{page.utm}})
+[In Part 2, we will extract data from our images and add them to our search index.](http:///blog.sandeepchivukula.com/posts/2016/03/07/photo-search-2/?{{page.utm}})
+
+PS - You can also check out [Part 3, for the AngularJS front end for our search engine.](http:///blog.sandeepchivukula.com/posts/2016/03/07/photo-search-3/?{{page.utm}})

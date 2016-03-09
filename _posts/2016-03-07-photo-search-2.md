@@ -14,8 +14,6 @@ ads: false
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=photosearch-2
 modified: 2016-03-07
 ---
-# Update Pictures on the Part 1
-
 # Part 2: Adding Photos to the Search Engine
 
 This is the second part of a three part series on how to sort through a large photo collection easily. This part covers Indexing: getting information about the images in your photo library into the [search engine that we built last time.](/posts/2016/03/06/photo-search/?{{page.utm}}) 
@@ -45,7 +43,7 @@ We are going to use the [Node.js directory walker](https://github.com/daaku/node
 
 <script src="https://gist.github.com/sandeep/c28f2b7326fa2536f259.js"></script>
 
-The second extraction in the code above calls a `getPalette` function which extracts the 5 most dominant colors in each image so that we can search by image color. Originally, I naively used RGB color extraction but to get perceptually similar colors (ie. ones you precieve to be similar) without a lot of gymnastics weu need to use a perceptually uniform color space such as HSL. The palette module converts between color spaces out of the box. 
+The second extraction in the code above calls a `getPalette` function which extracts the 5 most dominant colors in each image so that we can search by image color. Originally, I naively used RGB color extraction but to get perceptually similar colors (ie. ones you precieve to be similar) without a lot of gymnastics we need to use a perceptually uniform color space such as HSL. The palette module converts between color spaces out of the box. 
 
 <script src="https://gist.github.com/sandeep/1a3b6d16f9f811f14ecc.js"></script>
 
