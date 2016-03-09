@@ -1,7 +1,7 @@
 # Site wide configuration
 title:            Sandeep Chivukula
 locale:           en_US
-description:      Technology Business
+description:      
 search:           true
 logo:             site-logo.png
 

@@ -16,26 +16,28 @@ utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=photosearch
 
 # Motivation
 
-If you're anything like me, which I suspect you are, over the years you've probably amassed a large collection of photos. With over 73,257 photos across 707 directories representing 15 years of digital photography - finding a particular photo is a challenge.
+If you're anything like me, which I suspect you are, over the years you've probably amassed a large collection of photos. With over 73,257 photos across 707 directories representing 15 years of digital photography, finding a particular photo is a challenge.
 
-While most photos have some combination of date and time or even GPS information - most people don't spend their lives memorizing times and dates of photos. We need to augment the "metadata" with something more human. 
+While most photos have some combination of date and time or even GPS information, most people don't spend their lives memorizing times and dates of photos. We need to augment the "metadata" with something more human. 
 
-Wouldn't it be great we could search for photos by things that people remember such as the color of the sunset or the blue of the sky in the picture they're looking for?
+Wouldn't it be great if we could search for photos by features that people remember? Features, such as the color of the sunset or the blue of the sky in the picture they're looking for?
 
 
 # A Three Part Solution
 
-Our solution needs three parts: First, we need robust search engine infrastructure. Second, the photos need to be cataloged and added to search engine's index and finally we need a simple, friendly way for users to search throught 1000s of images by metadata, colors or any other feature we choose to add to the index.
+Our solution needs three parts: First, we need robust search engine infrastructure. Second, the photos need to be cataloged and added to search engine's index. And finally, we need a simple way for users to search through tens of thousands of images by metadata, colors or any other feature we choose to add to the index.
 
 # Part 1: Search Infrastructure in a Box
 
 _Prerequisites: You will a need working [Docker](http://www.docker.com/?{{page.utm}}) installation._
 
-One of the most flexible search tools available today is [Elasticsearch](https://www.elastic.co/products/elasticsearch/?{{page.utm}}). This provides powerful indexing, query and aggregation functions out of the box. Best of all, you can access all of this via a http API. [Kibana](https://www.elastic.co/products/kibana/?{{page.utm}}), a visualization tool for Elasticsearch so let's add that to our toolbelt.
+One of the most flexible search tools available today is [Elasticsearch](https://www.elastic.co/products/elasticsearch/?{{page.utm}}). This provides powerful indexing, query and aggregation functions out of the box. Best of all, you can access all of this via a http API. 
+
+In addition to Elasticsearch, we'll also bring up [Kibana](https://www.elastic.co/products/kibana/?{{page.utm}}), a visualization tool to explore our data.
 
 ## Loading up with Docker
 
-Docker lets us bring up the official distributions of each of these components with functional defaults in seconds. Docker's new `docker-compose` command brings up and links muliptle containers together based on the configuration in a  `docker-compose.yml` file.
+Instead of setting up these tools individually let's use [Docker](http://www.docker.com/?{{page.utm}}) to bring up the official containerized distributions of each of these components in seconds (with functional defaults.) Docker's new `docker-compose` command starts and links multiple containers together based on the configuration in a  `docker-compose.yml` file.
 
 The configuration file below tells Docker to pull down the official images for Elasticsearch and Kibana from [Docker Hub](http://www.dockerhub.com/?{{page.utm}}), set up [a custom configuration file](https://github.com/sandeep/photosearch/blob/master/data/elasticsearch.yml/?{{page.utm}}) and connect the Kibana container to the ElasticSearch container. 
 
@@ -71,6 +73,6 @@ Verify that Kibana is running and that it can connect to Elasticsearch at `http:
 
 # Next Steps
 
-While it seems really simple - We've setup a powerful foundation for search that can both handle large amounts of data and be scaled out to service a high volume of requests in the future.
+We've created a powerful foundation for search that can both handle large amounts of data and be scaled out to service a high volume of requests.
 
-Next up in [Part 2, we will extract data from our images and add them to our search index.](http:///blog.sandeepchivukula.com/posts/2016/03/06/photo-search-2/?{{page.utm}})
+[In Part 2, we will extract data from our images and add them to our search index.](http:///blog.sandeepchivukula.com/posts/2016/03/06/photo-search-2/?{{page.utm}})
