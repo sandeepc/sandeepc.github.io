@@ -12,13 +12,13 @@ comments: true
 share: true
 ads: false
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=photosearch-2
-modified: 2016-03-07
+modified: 2016-03-19
 ---
 # Part 2: Adding Photos to the Search Engine
 
 This is the second part of a three part series on how to sort through a large photo collection easily. This part covers Indexing: getting information about the images in your photo library into the [search engine that we built last time.](/posts/2016/03/06/photo-search/?{{page.utm}}) 
 
-_Prerequisites: Completion of Part 1; Node.js; Photos with EXIF Data incl. GPS_
+_Prerequisites: Completion of Part 1; Node.js; Photos with EXIF Data incl. GPS; [node-gyp and Cairo which are used by node-canvas](https://github.com/Automattic/node-canvas/?{{page.utm}});and  [exiftool.](http://www.sno.phy.queensu.ca/~phil/exiftool/?{{page.utm}})_ H/T [@mmigdol](https://twitter.com/mmigdol/status/711213188281274368)
 
 We'll set up the Elasticsearch index to hold data about the photos in our collection, extract the relevant data from the images, and add it to the search engine. Finally, a quick visualization with Kibana cofirms that we ingested the data correctly. 
 
