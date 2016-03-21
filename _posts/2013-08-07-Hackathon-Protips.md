@@ -12,6 +12,8 @@ image:
 comments: true
 share: true
 ads: false
+crosspost_to_medium: true
+
 ---
 
 ###Outside Hacks & MUSAIC

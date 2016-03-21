@@ -9,8 +9,8 @@ logo:             site-logo.png
 url:              http://blog.sandeepchivukula.com
 #For Development Only
 #url:             http://localhost:4000
-#host:		 localhost
-#port:		 4000
+#host:		        localhost
+#port:		        4000
 
 # Jekyll configuration
 permalink:   pretty
@@ -65,6 +65,11 @@ owner:
   fb:
     pixel: 1694049524161968
 
+# Crosspost to Medium
 jekyll-crosspost_to_medium:
-status: draft
-text: <p><i>This article was originally posted <a href=\"#{url}\" rel=\"canonical\">on my blog sandeepchivukula.com</a>.</i></p>
+  enabled: true
+  cache: .jekyll-crosspost_to_medium
+  status: draft
+  text: <p><i>First published on <a href=\"{{url}\" rel=\"canonical\">sandeepchivukula.com</a>.</i></p>
+  #license: all-rights-reserved | cc-40-by | cc-40-by-sa | cc-40-by-nd | cc-40-by-nc | cc-40-by-nc-nd | cc-40-by-nc-sa | cc-40-zero | public-domain
+

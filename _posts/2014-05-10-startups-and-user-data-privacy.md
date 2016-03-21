@@ -13,6 +13,8 @@ image:
 comments: true
 share: true
 ads: false
+crosspost_to_medium: true
+
 ---
 
 _I wrote this post on privacy and user data ownership in consumer startups back in 2012 when Facebook

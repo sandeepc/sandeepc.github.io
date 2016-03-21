@@ -12,6 +12,8 @@ image:
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=mixpanelclone
 share: true
 ads: false
+crosspost_to_medium: true
+
 ---
 
 In the physical world, logistics advances created opportunities for companies to upend old business models. Both Wal-Mart (Cross-Docking) and Dell (Just-In-Time Manufacturing) leveraged superior logistics to create outsized competitive advantages by fundamentally re-defining how goods are moved from the factory to the consumer. 

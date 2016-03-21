@@ -12,6 +12,8 @@ image:
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=yelp-100-visualization
 share: true
 ads: false
+crosspost_to_medium: true
+
 ---
 
 ###Getting Down with Data Science

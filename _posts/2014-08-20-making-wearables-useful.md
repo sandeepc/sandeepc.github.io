@@ -12,6 +12,8 @@ image:
 comments: true
 share: true
 ads: false
+crosspost_to_medium: true
+
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=quantifiedselfuxtips
 ---
 
