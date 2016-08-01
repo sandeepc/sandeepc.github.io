@@ -15,7 +15,7 @@ url:              http://blog.sandeepchivukula.com
 # Jekyll configuration
 permalink:   pretty
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 
 sass:
   sass_dir: _sass

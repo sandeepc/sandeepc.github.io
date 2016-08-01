@@ -66,7 +66,7 @@ If you go to `http://<dockerhost_ip>:9200` a JSON response with the name of the 
 </figure>
 
 
-Verify that Kibana is running and that it can connect to Elasticsearch at `http://<dockerhost_ip>:5061` 
+Verify that Kibana is running and that it can connect to Elasticsearch at `http://<dockerhost_ip>:5601` 
 
 <figure>
   <img src="/images/elasticphotos/Kibana_Start.png">
