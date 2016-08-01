@@ -18,7 +18,7 @@ crosspost_to_medium: true
 
 ###Getting Down with Data Science
 
-The data science team at [Yelp](officialblog.yelp.com/2015/01/yelps-top-100-places-to-eat-in-the-us-for-2015.html?{{page.utm}}) crunched  their trove of user-generated data and published their list of _100 __HOTTEST__ places to eat in the US for 2015_. I prefer to see these lists on map so my friends and I can check out the nearby ones.
+The data science team at [Yelp](http://officialblog.yelp.com/2015/01/yelps-top-100-places-to-eat-in-the-us-for-2015.html?{{page.utm}}) crunched  their trove of user-generated data and published their list of _100 __HOTTEST__ places to eat in the US for 2015_. I prefer to see these lists on map so my friends and I can check out the nearby ones.
 
 So without further ado here are the 100 Hottest Places according to Yelp's presented on a map. 
 
