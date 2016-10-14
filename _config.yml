@@ -16,14 +16,16 @@ url:              http://blog.sandeepchivukula.com
 permalink:   pretty
 markdown:    kramdown
 highlighter: rouge
-
 sass:
   sass_dir: _sass
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
 kramdown:
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
@@ -33,7 +35,7 @@ kramdown:
 mathjax: true
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
 
 # Site owner
@@ -68,9 +70,8 @@ owner:
 
 # Crosspost to Medium
 jekyll-crosspost_to_medium:
-  enabled: true
+  enabled: false
   cache: .jekyll-crosspost_to_medium
   status: draft
   text: <p><i>First published on <a href=\"{{url}\" rel=\"canonical\">sandeepchivukula.com</a>.</i></p>
   #license: all-rights-reserved | cc-40-by | cc-40-by-sa | cc-40-by-nd | cc-40-by-nc | cc-40-by-nc-nd | cc-40-by-nc-sa | cc-40-zero | public-domain
-
