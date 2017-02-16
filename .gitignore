@@ -10,3 +10,4 @@ node_modules
 .travis_LOCAL_26630.yml
 .travis_REMOTE_26630.yml
 .env
+.bundle

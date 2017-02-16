@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mapping Yelp's Hottest 2015 Eats
-modified: 1/27/2015
+modified: 2/16/2017
 categories: post
 excerpt: A mapping of Yelp’s Hottest 100 Places to Eat in the U.S. for 2015.
 tags: [visualization, maps, api, yelp, data science,]
@@ -16,11 +16,11 @@ crosspost_to_medium: true
 
 ---
 
-###Getting Down with Data Science
+### Getting Down with Data Science
 
 The data science team at [Yelp](http://officialblog.yelp.com/2015/01/yelps-top-100-places-to-eat-in-the-us-for-2015.html?{{page.utm}}) crunched  their trove of user-generated data and published their list of _100 __HOTTEST__ places to eat in the US for 2015_. I prefer to see these lists on map so my friends and I can check out the nearby ones.
 
-So without further ado here are the 100 Hottest Places according to Yelp's presented on a map. 
+So without further ado here are the 100 Hottest Places to eat, according to Yelp, presented on a map. 
 
 Built with the [Yelp API](http://www.yelp.com/developers/?{{page.utm}}) and [Leaflet.js](https://leafletjs.com/?{{page.utm}})<-- amazing, easy, mobile friendly maps.
 
@@ -42,7 +42,7 @@ var southWest = L.latLng(15, -170),
   }).addTo(map);
 
   //Be sure you've loaded JQuery
-  $.getJSON("/yelp-api-output.json", function(json) {
+  $.getJSON("/yelp-api-output-2015.json", function(json) {
     json.forEach(function(item){
       var marker = L.marker([item.coordinates.latitude,item.coordinates.longitude]).addTo(map);
       marker.bindPopup("<div><p><a href="+item.url+"><em style=\"margin:0\">"+item.name+"</em></a><br><small>"+item.address.pop().match(/(.*\, \w\w).*/)[1]+"   </small><br><img src="+item.rating_img_url+"></a><br><img  src=\"http://s3-media3.fl.yelpcdn.com/assets/2/www/img/3049d7633b6e/developers/reviewsFromYelpRED.gif\"></p></div>");
