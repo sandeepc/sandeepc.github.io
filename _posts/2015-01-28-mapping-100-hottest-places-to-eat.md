@@ -24,6 +24,9 @@ So without further ado here are the 100 Hottest Places to eat, according to Yelp
 
 Built with the [Yelp API](http://www.yelp.com/developers/?{{page.utm}}) and [Leaflet.js](https://leafletjs.com/?{{page.utm}})<-- amazing, easy, mobile friendly maps.
 
+[You can also checkout the 2017 version of this map.](/post/2017/02/16/mapping-100-hottest-places-to-eat-2017/)
+
+
 <div id="map"></div>
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>

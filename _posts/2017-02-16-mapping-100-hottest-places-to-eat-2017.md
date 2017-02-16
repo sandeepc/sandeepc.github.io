@@ -17,9 +17,11 @@ crosspost_to_medium: true
 
 ### Yes but can you show it to me on a map?  
 
-As I mentioned in [2015](http://blog.sandeepchivukula.com/post/2015/01/28/mapping-100-hottest-places-to-eat/) I prefer to see list of restuarants on a map.
+Yelp recently published their annual list of the hottest places for 2017.
+As I mentioned in [2015](http://blog.sandeepchivukula.com/post/2015/01/28/mapping-100-hottest-places-to-eat/) I prefer to see this list of restuarants on a map.
 
-So without further ado here are the 2017's 100 Hottest Places to eat according to Yelp presented on a map. For a good measure I've included the 2015 ones as well. 
+So without further ado here are 2017's 100 Hottest Places to eat, according to Yelp, presented on a map.
+For a good measure, I've included the 2015 and 2016 ones as well. 
 
 Built with the [Yelp API](http://www.yelp.com/developers/?{{page.utm}}) and [Leaflet.js](https://leafletjs.com/?{{page.utm}})<-- amazing, easy, mobile friendly maps.
 
@@ -43,9 +45,15 @@ function addYelpData (L, options, callback)
       var marker = L.circleMarker([item.coordinates.latitude,item.coordinates.longitude],{
     color: color,
     fillColor: fill,
-    fillOpacity: 0.5,
-    }).setRadius(5);
+    fillOpacity: 0.7,
+    }).setRadius(4);
       marker.bindPopup("<div><p><a href="+item.url+"><em style=\"margin:0\">"+item.name+"</em></a><br><small>"+item.address.pop().match(/(.*\, \w\w).*/)[1]+"   </small><br><img src="+item.rating_img_url+"></a><br><img  src=\"http://s3-media3.fl.yelpcdn.com/assets/2/www/img/3049d7633b6e/developers/reviewsFromYelpRED.gif\"></p></div>");
+      marker.on('mouseover', function (e) {
+          this.openPopup();
+        });
+      marker.on('mouseout', function (e) {
+          this.closePopup();
+        });
       markers.push(marker);
 
       });   
@@ -76,9 +84,9 @@ var labels= L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-labels/{
 
 var map = L.map('map',{center:[34, -94], zoom: mapZoom, maxBounds:bounds, minZoom:2,layers: [base,labels]});
 
-var cl =  L.control.layers(undefined,undefined,{collapsed:false, autoZIndex:false})
+var cl =  L.control.layers(undefined,undefined,{collapsed:false})
 
-years =["2015","2017"]
+years =["2015","2016","2017"]
 
 years.forEach(function(element,index)
 {
