@@ -1,7 +1,7 @@
 # Site wide configuration
 title:            Sandeep Chivukula
 locale:           en_US
-description:      
+description:
 search:           true
 logo:             site-logo.png
 
@@ -42,7 +42,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 owner:
   name:           Sandeep Chivukula
-  avatar:         Profile_Pic.png
+  avatar:         Profile_Pic.jpg
   email:          me@sandeepchivukula.com
   # Social networking links used in footer. Update and remove as you like.
   disqus_shortname:
