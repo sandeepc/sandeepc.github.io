@@ -1,7 +1,6 @@
 # Site wide configuration
 title:            Sandeep Chivukula
-locale:           en_US
-search:           true
+locale:           en-US
 logo:             /images/site-logo.png
 url:              http://blog.sandeepchivukula.com
 description:      "A blog about enterepenurship, technology, business and working in teams."
