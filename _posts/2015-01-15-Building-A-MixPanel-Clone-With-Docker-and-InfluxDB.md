@@ -38,7 +38,7 @@ We will use three Open Source components and a little javascript to accomplish t
 
 ### The Steps
 
-####1. Setup a Docker Host
+#### 1. Setup a Docker Host
 
 Docker has rapidly become the de-facto technology for containerized services. You can install Docker or use [Boot2Docker on your Mac](https://docs.docker.com/installation/mac/?{{page.utm}}), [AWS' Elastic Container Service](https://aws.amazon.com/ecs/?{{page.utm}}), or bring up your own Docker host on [Google Compute](https://cloud.google.com/compute/docs/containers/container_vms?{{page.utm}})
 
@@ -46,7 +46,7 @@ Docker has rapidly become the de-facto technology for containerized services. Yo
 
 I will be using Boot2Docker on a Mac.
 
-####2. Launch and Setup InfluxDB
+#### 2. Launch and Setup InfluxDB
 
 ![InfluxDB](/images/devops/influx.jpeg)
 
@@ -66,7 +66,7 @@ Set the username/password (`root/root`) and create a database (`mixevents`)
 
 _Note: 1) Find out the IP for your Boot2Docker Host with `boot2docker ip` 2) You should really persist the data outside the db container but that's for another day._
 
-####3. Bring up Grafana
+#### 3. Bring up Grafana
 
 Grafana is a [fantastic visualization tool](http://grafana.org/features/?{{page.utm}}) that already suports querying InfluxDB.
 
@@ -85,7 +85,7 @@ Head to your Docker Host's IP on port `80` and login with `admin/mypass` for the
 
 With _two_ Docker commands most of our heavy lifting is done. Each component can now be updated and scaled inpedendently as needed. Now onto the configuration steps to add our data and visualizations.
 
-####4. Enter Data into InfluxDB
+#### 4. Enter Data into InfluxDB
 
 [InfluxDB has clients](http://influxdb.com/docs/v0.8/client_libraries/javascript.html?{{page.utm}}) for a variety of languages so you can easily send events from your Backend or directly from the Frontend.
 
@@ -119,7 +119,7 @@ for (i = 0; i < backMilliseconds; i += timeInterval) {
 influxdb.writeSeries([eventSeries]);
 {% endhighlight %}
 
-####4. Setup Grafana Dashboards
+#### 5. Setup Grafana Dashboards
 
 Grafana needs to be configured to show the data we want: Unique User Sign Ups over the last seven days.
 
@@ -144,7 +144,7 @@ __Boom!__
 
 You have just created a MixPanel like view for one of the most critical user events in any SaaS - _Distinct User Sign Ups!_
 
-###What Next?
+### What Next?
 
 This scalable general purpose data store and visualization we've just built can now easily be deployed from your local machine to AWS, Google or your own Data Center AND scaled up or down as needed.
 
