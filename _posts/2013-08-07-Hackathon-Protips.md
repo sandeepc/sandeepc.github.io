@@ -2,13 +2,13 @@
 layout: post
 title: Four "Pro-tips" for Hackathons
 excerpt: "Four Pro-Tips to ship product and rock out at Hackathons"
-modified: 2013-08-26
-category: posts
+last_modified_at: 2013-08-26
+Category: posts
 tags: [Shipping It,Hackathons,Tips]
 image:
-  feature: musaic_logo-large.png
-  creditlink:
-  credit: Musaic Team
+  path: /images/musaic_logo-large.png
+  thumbnail: /images/musaic_logo-large.png
+  caption: Musaic Team
 comments: true
 share: true
 ads: false

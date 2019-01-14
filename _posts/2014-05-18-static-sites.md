@@ -2,12 +2,12 @@
 layout: post
 title: Three reasons to use static sites and get down to business
 excerpt: "Static sites - setup very sophisticated sites, focus on content and scale as needed."
-category: posts
+Category: posts
 tags: [Static Sites, Jekyll]
 image:
-  feature: static-sites.jpg
-  creditlink: https://www.flickr.com/photos/mushman1970/6651066661/
-  credit: Taehyun Kim
+  path: /images/static-sites.jpg
+  thumbnail: /images/static-sites.jpg
+  caption: "[Taehyun Kim](https://www.flickr.com/photos/mushman1970/6651066661/)"
 comments: true
 share: true
 ads: false
@@ -27,7 +27,7 @@ around ownership, branding, and discoverability.
 
 #### Enter Static Sites
 
-Static sites allow for feature rich blogs with high grained control while eliminating complexity.  
+Static sites allow for feature rich blogs with high grained control while eliminating complexity.
 They can [be hosted for free on github](https://help.github.com/articles/what-are-github-pages?{{page.utm}}), or for
 a few bucks on [AMAZONS3 bucket](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) or [Dropbox.](https://dropbox.com/??{{page.utm}})
 

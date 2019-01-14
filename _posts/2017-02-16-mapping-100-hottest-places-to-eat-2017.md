@@ -1,27 +1,28 @@
 ---
 layout: post
 title: Mapping Yelp's Hottest 2017 Eats
-categories: post
+Category: posts
 excerpt: A mapping of Yelp’s Hottest 100 Places to Eat in the U.S. for 2017.
 tags: [visualization, maps, api, yelp, data science,]
-image: 
-  feature: yelp/feature.jpg
-  creditlink: https://www.flickr.com/photos/7511731@N06/3196630278/
-  credit: John Beswick
+image:
+  path: /images/yelp/feature.jpg
+  thumbnail: /images/yelp/feature.jpg
+  caption: "[John Beswick](https://www.flickr.com/photos/7511731@N06/3196630278/)"
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=yelp-100-visualization
 share: true
 ads: false
 crosspost_to_medium: true
+author: sandeep
 
 ---
 
-### Yes but can you show it to me on a map?  
+### Yes but can you show it to me on a map?
 
 Yelp recently published their annual list of the hottest places for 2017.
 As I mentioned in [2015](http://blog.sandeepchivukula.com/post/2015/01/28/mapping-100-hottest-places-to-eat/) I prefer to see this list of restuarants on a map.
 
 So without further ado here are 2017's 100 Hottest Places to eat, according to Yelp, presented on a map.
-For a good measure, I've included the 2015 and 2016 ones as well. 
+For a good measure, I've included the 2015 and 2016 ones as well.
 
 Built with the [Yelp API](http://www.yelp.com/developers/?{{page.utm}}) and [Leaflet.js](https://leafletjs.com/?{{page.utm}})<-- amazing, easy, mobile friendly maps.
 
@@ -40,7 +41,7 @@ function addYelpData (L, options, callback)
 
   //Be sure you've loaded JQuery
   $.getJSON("/yelp-api-output-"+year+".json", function(json) {
-    var markers=[];  
+    var markers=[];
     json.forEach(function(item){
       var marker = L.circleMarker([item.coordinates.latitude,item.coordinates.longitude],{
     color: color,
@@ -56,7 +57,7 @@ function addYelpData (L, options, callback)
         });
       markers.push(marker);
 
-      });   
+      });
     callback({ "year": year, "layer":L.layerGroup(markers)})
   });
 
@@ -80,7 +81,7 @@ var labels= L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-labels/{
   });
 
 
-  
+
 
 var map = L.map('map',{center:[34, -94], zoom: mapZoom, maxBounds:bounds, minZoom:2,layers: [base,labels]});
 
@@ -93,7 +94,7 @@ years.forEach(function(element,index)
   addYelpData(L,{year:element, color:color_palette[index]}, function(data){
     cl.addOverlay(data.layer,"<span style=background:"+color_palette[index]+";padding-left:10px></span>"+data.year);
     data.layer.addTo(map)
-  });  
+  });
 })
 cl.addTo(map)
 }

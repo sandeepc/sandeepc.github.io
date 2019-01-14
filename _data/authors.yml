@@ -2,10 +2,15 @@
 
 sandeep:
   name: Sandeep Chivukula
-  web: http://sandeepchivukula.com
-  email: sandeep@sandeepchivukula.com 
-  bio: "Product and Business Development in Tech."
-  avatar: Profile_Pic.jpg
-  twitter: _sandeep 
-  google:
-    plus: 
+  picture: /images/Profile_Pic.jpg
+  twitter: "@_sandeep"
+  links:
+    - title: Twitter
+      url: https://twitter.com/_sandeep
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/sandeep
+      icon: fab fa-github-square
+    - title: LinkedIn
+      url: https://linkedin.com/in/sandeepchivukula
+      icon: fab fa-linkedin

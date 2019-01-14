@@ -3,12 +3,12 @@ layout: post
 title: Making Wearables Useful
 description: "Most Quantified Self or Wearable Devices end up unused in 6 months. Here are a few user experience tips to make your device or service more useful to the consumer."
 excerpt: Wearables need to solve real problems to save them from junk drawers.
-category: posts
+Category: posts
 tags: [Quantified Self, Wearables, User Experience, Product]
 image:
-  feature: /qs/math.png
-  creditlink: http://www.flickr.com/photos/t_e_brown/8677750589/
-  credit: Mathematics by Tom Brown
+  path: /images//qs/math.png
+  thumbnail: /images//qs/math.png
+  caption: "[Mathematics by Tom Brown](http://www.flickr.com/photos/t_e_brown/8677750589/)"
 comments: true
 share: true
 ads: false

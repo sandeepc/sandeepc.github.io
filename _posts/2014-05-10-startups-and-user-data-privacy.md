@@ -2,14 +2,14 @@
 layout: post
 title: User Data and Startups
 description: "Startups and privacy when quantified self and social media meet."
-category: posts
+Category: posts
 excerpt: "Startups and Privacy when Quantified Self and Social Media meet."
-category: posts
+Category: posts
 tags: [Privacy, Startups, Consumer]
 image:
-  feature: privacy-feature.png
-  creditlink: http://loc.gov/pictures/resource/fsac.1a34280/
-  credit: John Vachon via LoC
+  path: /images/privacy-feature.png
+  thumbnail: /images/privacy-feature.png
+  caption: "[John Vachon via LoC](http://loc.gov/pictures/resource/fsac.1a34280/)"
 comments: true
 share: true
 ads: false

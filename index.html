@@ -1,21 +1,17 @@
 ---
-layout: page
-title:
-excerpt: "Sandeep Chivukula’s blog about the software products and technology businesses."
+layout: home
+excerpt: "Sandeep Chivukula’s blog about enterepenurship, technology, business and working in teams."
 tags: [SaaS, ecommerce, entreprenuership, web, technology, marketing, business, blog, product management, sandeep chivukula, sandeep, chivukula, executive, chatbots, startups, bots, conversational ui]
-isAbout: true
-search_omit: true
+search: false
+paginate: true
+show_excerpts: true
+entries_layout: grid
 ---
 
-<p style="text-align:center">A blog about software products and technology businesses.</p>
-
-<h4> Blog Posts </h4>
-<ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
-<BR>
-<h5 style="text-align:center"> Stay in the loop: <a href="https://twitter.com/_sandeep" class="twitter-follow-button" data-show-count="false" data-size="x-large" data-dnt="true">@_sandeep</a></h5>
+<h5 style="text-align:center"> <a href="https://twitter.com/_sandeep" class="twitter-follow-button" data-show-count="true" data-size="x-large" data-dnt="true">@_sandeep</a></h5>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<BR>
+
+<h2 style="text-align:center"> Blog Posts </h2>

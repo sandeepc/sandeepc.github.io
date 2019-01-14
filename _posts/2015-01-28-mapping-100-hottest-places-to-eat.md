@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Mapping Yelp's Hottest 2015 Eats
-modified: 2/16/2017
-categories: post
+last_modified_at: 2017-02-16
+Category: posts
 excerpt: A mapping of Yelp’s Hottest 100 Places to Eat in the U.S. for 2015.
 tags: [visualization, maps, api, yelp, data science,]
-image: 
-  feature: yelp/feature.jpg
-  creditlink: https://www.flickr.com/photos/7511731@N06/3196630278/
-  credit: John Beswick
+image:
+  path: /images/yelp/feature.jpg
+  thumbnail: /images/yelp/feature.jpg
+  caption: "[John Beswick](https://www.flickr.com/photos/7511731@N06/3196630278/)"
 utm: utm_source=sandeepchivukula.com&utm_medium=blog&utm_campaign=yelp-100-visualization
 share: true
 ads: false
@@ -20,7 +20,7 @@ crosspost_to_medium: true
 
 The data science team at [Yelp](http://officialblog.yelp.com/2015/01/yelps-top-100-places-to-eat-in-the-us-for-2015.html?{{page.utm}}) crunched  their trove of user-generated data and published their list of _100 __HOTTEST__ places to eat in the US for 2015_. I prefer to see these lists on map so my friends and I can check out the nearby ones.
 
-So without further ado here are the 100 Hottest Places to eat, according to Yelp, presented on a map. 
+So without further ado here are the 100 Hottest Places to eat, according to Yelp, presented on a map.
 
 Built with the [Yelp API](http://www.yelp.com/developers/?{{page.utm}}) and [Leaflet.js](https://leafletjs.com/?{{page.utm}})<-- amazing, easy, mobile friendly maps.
 

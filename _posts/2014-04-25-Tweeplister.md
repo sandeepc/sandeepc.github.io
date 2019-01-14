@@ -2,20 +2,20 @@
 layout: post
 title: Twitter Lists Made Easy
 excerpt: "Easily make a Twitter list from a list of names with Tweeplister"
-modified: 2014-04-26
-category: posts
+last_modified_at: 2014-04-26
+Category: posts
 tags: [Ruby, TweepLister]
 image:
-  feature: tweeplister-head.png
-  creditlink: https://www.flickr.com/photos/geezaweezer/4319488074/
-  credit: Geraint Rowland
+  path: /images/tweeplister-head.png
+  thumbnail: /images/tweeplister-head.png
+  caption: "[Geraint Rowland](https://www.flickr.com/photos/geezaweezer/4319488074/)"
 comments: true
 share: true
 ads: false
 
 ---
 
-###Twitter Lists
+### Twitter Lists
 
 I've been using Twitter at [Nitrous.IO.](http://www.nitrous.io/?utm_source="
 sandeepchivukula.com"&utm_medium="blog") to keep up with
@@ -33,7 +33,7 @@ After looking around and finding nothing but spammy junk and
 complicated social media management tools - I decided to do
 whip up something quick and simple.
 
-###Introducing [TweepLister](http://tweeplister.herokuapp.com)
+### Introducing [TweepLister](http://tweeplister.herokuapp.com)
 
 Here's how it works:
 

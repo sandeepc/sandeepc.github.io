@@ -1,16 +1,10 @@
 # Site wide configuration
 title:            Sandeep Chivukula
 locale:           en_US
-description:
 search:           true
-logo:             site-logo.png
-
-#Comment out url when working locally to resolve base urls correctly
+logo:             /images/site-logo.png
 url:              http://blog.sandeepchivukula.com
-#For Development Only
-#url:             http://localhost:4000
-#host:		        localhost
-#port:		        4000
+description:      "A blog about enterepenurship, technology, business and working in teams."
 
 # Jekyll configuration
 permalink:   pretty
@@ -19,10 +13,13 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-seo-tag
+
 
 kramdown:
   input: GFM
@@ -37,36 +34,66 @@ mathjax: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
+#Remote Theme
+remote_theme: "mmistakes/so-simple-theme"
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+read_time: true
+
+#paginate
+paginate: 10  # amount of posts to show per page
+paginate_path: /page:num/
+
+#search
+search_full_content: true
+
+#tags
+tag_archive_path: "/tags/#"
 
 # Site owner
-
-owner:
+twitter: _sandeep
+author:
   name:           Sandeep Chivukula
-  avatar:         Profile_Pic.jpg
+  picture:        /images/Profile_Pic.jpg
   email:          me@sandeepchivukula.com
-  # Social networking links used in footer. Update and remove as you like.
-  disqus_shortname:
   twitter:        _sandeep
-  #facebook:
-  github:         sandeep
-  stackexchange:
-  linkedin:       sandeepchivukula
-  #instagram:
-  #flickr:
-  #tumblr:
-  pinterest: #username
-  weibo: #userid
-  # For Google Authorship https://plus.google.com/authorship
-  google:
-    plus:
-    analytics: UA-22827765-1
-    verify: RCIETChG8zO8BGrHTNgEZYZWfKj-J2jdUthBRvD7DRA
-    ad-client:
-    ad-slot:
-    tagmanager: GTM-KXXHV5
-  bing-verify:
-  fb:
-    pixel: 1694049524161968
+  links:
+    - title: Twitter
+      url: https://twitter.com/_sandeep
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/sandeep
+      icon: fab fa-github-square
+    - title: LinkedIn
+      url: https://linkedin.com/in/sandeepchivukula
+      icon: fab fa-linkedin
+
+
+fb:
+  pixel: 1694049524161968
+google_analytics: UA-22827765-1
+google_tagmanager: GTM-KXXHV5
+
+# This needs to be fixed for Jekyll SEO
+verify: RCIETChG8zO8BGrHTNgEZYZWfKj-J2jdUthBRvD7DRA
+
+#footer links
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/_sandeep
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/sandeep
+    icon: fab fa-github-square
+  - title: LinkedIn
+    url: https://linkedin.com/in/sandeepchivukula
+    icon: fab fa-linkedin
+  - title: Feed
+    url: feed.xml
+    icon: fas fa-rss-square
+
+
 
 # Crosspost to Medium
 jekyll-crosspost_to_medium:
