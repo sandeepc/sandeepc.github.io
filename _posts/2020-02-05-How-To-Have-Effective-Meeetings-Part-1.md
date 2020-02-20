@@ -47,11 +47,11 @@ The best meeting culture I've experienced was at Intel. Every employee takes a c
 1. ##### Do you really need a meeting?
     Don't have a meeting to "present" output or get facetime. If you're only communicating status and everyone is going to continue according to the prior plan. Send the status update by email/slack/carrier pigeon as appropriate. Only meet to co-ordinate a change of action.
 
-    _Eg: You realize that you need marketing to change their ad campaigns based on this week's result. It requires a quick and complex coordination across teams._
+    _Eg: You realize that you need marketing to change their ad campaigns based on this week's result. It requires rapid and complex coordination across teams. This is worth having a meeting._
 
 1. ##### Know why you're meeting and the type of meeting you need: Process vs. Mission
-    *_Process Meetings:_ Regularly scheduled to coordinate action fixed agenda - eg: 1-1s, Core Team Meetings.
-    *_Mission Meetings:_ Ad-hoc meetings to solve a specific problem and/or produce a decision.
+      * _Process Meetings:_ Regularly scheduled to coordinate action fixed agenda - eg: 1-1s, Core Team Meetings.
+      * _Mission Meetings:_ Ad-hoc meetings to solve a specific problem and/or produce a decision.
 
 
 1. ##### If you still want the meeting, Publish the Agenda:
