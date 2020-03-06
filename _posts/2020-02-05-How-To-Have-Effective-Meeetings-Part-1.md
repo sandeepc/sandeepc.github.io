@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Level Up your Meetings - A cheat sheet for productive team work.
+title: Level Up your Meetings - A cheat sheet for meeting success.
 categories: post
 excerpt: If you aim to work with people and tackle complex, meaningful, work you will need meetings.Here's how to to bring people together to a common purpose effectively using meetings.
 
